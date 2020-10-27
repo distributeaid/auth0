@@ -8,11 +8,12 @@ const config = {
   AUTH0_ALLOW_DELETE: false,
 };
 
-dump({
-  output_folder: process.cwd(),
-  config,
-})
-  .then(() => console.log("yey dump was successful"))
-  .catch((err) =>
-    console.log(`Oh no, something went wrong. <%= "Error: ${err}" %>`)
-  );
+const main = async () => {
+  await dump({
+    output_folder: process.cwd(),
+    config,
+  });
+  console.log("Successfully exported configuration.");
+};
+
+main();

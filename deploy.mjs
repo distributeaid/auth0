@@ -8,11 +8,12 @@ const config = {
   AUTH0_ALLOW_DELETE: false,
 };
 
-deploy({
-  input_file: process.cwd(),
-  config,
-})
-  .then(() => console.log("yey deploy was successful"))
-  .catch((err) =>
-    console.log(`Oh no, something went wrong. <%= "Error: ${err}" %>`)
-  );
+const main = async () => {
+  await deploy({
+    input_file: process.cwd(),
+    config,
+  });
+  console.log("Successfully deployed configuration.");
+};
+
+main();
