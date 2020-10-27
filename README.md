@@ -17,3 +17,8 @@ auth0 configuration for Distribute Aid.
 See
 [auth0-deploy-cli / examples](https://github.com/auth0/auth0-deploy-cli/tree/master/examples/directory)
 for available configuration options.
+
+## Client IDs
+
+After a successfull deployment, the client IDs will be printed by the GitHub
+action
