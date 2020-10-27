@@ -1,7 +1,7 @@
 {
   "is_token_endpoint_ip_header_trusted": false,
   "name": "Webapp",
-  "callbacks": ["https://localhost:8080"],
+  "callbacks": ["http://localhost:8080/"],
   "is_first_party": true,
   "oidc_conformant": true,
   "sso_disabled": false,
