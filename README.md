@@ -18,6 +18,10 @@ See
 [auth0-deploy-cli / examples](https://github.com/auth0/auth0-deploy-cli/tree/master/examples/directory)
 for available configuration options.
 
+## Domain
+
+The auth0 domain is `distributeaid.eu.auth0.com`.
+
 ## Client IDs
 
 After a successfull deployment, the client IDs will be printed by the GitHub
