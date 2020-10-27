@@ -1,0 +1,60 @@
+{
+  "name": "@distributeaid/auth0",
+  "version": "0.0.0-development",
+  "description": "auth0.com configuration for Distribute Aid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributeaid/auth0.git"
+  },
+  "keywords": [
+    "auth0",
+    "configuration",
+    "Distribute Aid"
+  ],
+  "author": "Distribute Aid | https://distributeaid.org/",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/distributeaid/auth0/issues"
+  },
+  "homepage": "https://github.com/distributeaid/auth0#readme",
+  "devDependencies": {
+    "@bifravst/code-style": "^8.0.134",
+    "auth0-deploy-cli": "^5.2.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.0",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --ext .js,.ts"
+    ],
+    "*.{md,json,yaml,yml,js}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "release": {
+    "branches": [
+      "saga"
+    ],
+    "remoteTags": true,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}

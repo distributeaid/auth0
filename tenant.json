@@ -1,0 +1,8 @@
+{
+  "friendly_name": "Distribute Aid",
+  "support_email": "tools@distributeaid.org",
+  "enabled_locales": ["en"],
+  "flags": {
+    "disable_clickjack_protection_headers": false
+  }
+}
