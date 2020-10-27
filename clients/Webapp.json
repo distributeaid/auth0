@@ -6,16 +6,32 @@
   "oidc_conformant": true,
   "sso_disabled": false,
   "cross_origin_auth": false,
+  "allowed_clients": [],
+  "allowed_logout_urls": ["http://localhost:8080/"],
+  "description": "A single page web application.",
+  "logo_uri": "https://avatars0.githubusercontent.com/u/59700741?s=200&v=4",
+  "native_social_login": {
+    "apple": {
+      "enabled": false
+    },
+    "facebook": {
+      "enabled": false
+    }
+  },
   "jwt_configuration": {
     "alg": "RS256",
     "lifetime_in_seconds": 36000,
     "secret_encoded": false
   },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "none",
+  "app_type": "spa",
   "grant_types": [
     "authorization_code",
     "implicit",
     "refresh_token",
     "client_credentials"
   ],
+  "web_origins": ["http://localhost:8080/"],
   "custom_login_page_on": true
 }

@@ -11,11 +11,6 @@
   "strategy": "auth0",
   "name": "Username-Password-Authentication",
   "is_domain_connection": false,
-  "realms": [
-    "Username-Password-Authentication"
-  ],
-  "enabled_clients": [
-    "auth0-deploy-cli-extension",
-    "Default App"
-  ]
+  "realms": ["Username-Password-Authentication"],
+  "enabled_clients": ["Webapp", "auth0-deploy-cli-extension"]
 }
