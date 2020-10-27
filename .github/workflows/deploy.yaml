@@ -25,7 +25,7 @@ jobs:
           key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
       - name: Install dependencies
         run: npm ci
-      - run: node --unhandled-rejections=strict deploy.js
+      - run: node --unhandled-rejections=strict deploy.mjs
       - name: Semantic release
         run: |
           npm i --no-save semantic-release
