@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "script": "./add-role-to-user.js",
+  "name": "Add role to user",
+  "order": 1,
+  "stage": "login_success"
+}
