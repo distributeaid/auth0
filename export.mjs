@@ -1,5 +1,6 @@
 import pkg from "auth0-deploy-cli";
 const { dump } = pkg;
+import { spawnSync } from "child_process";
 
 const config = {
   AUTH0_DOMAIN: process.env.AUTH0_DOMAIN,
@@ -14,6 +15,7 @@ const main = async () => {
     config,
   });
   console.log("Successfully exported configuration.");
+  spawnSync("npx prettier --write ./**/*.{js,json}");
 };
 
 main();

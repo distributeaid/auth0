@@ -1,0 +1,5 @@
+{
+  "client_id": "github-actions",
+  "audience": "https://distributeaid.eu.auth0.com/api/v2/",
+  "scope": ["read:clients"]
+}
