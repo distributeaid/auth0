@@ -15,7 +15,7 @@ const main = async () => {
     config,
   });
   console.log("Successfully exported configuration.");
-  spawnSync("npx prettier --write ./**/*.{js,json}");
+  spawnSync("npx", ["prettier", "--write", "./**/*.{js,json}"]);
 };
 
 main();
