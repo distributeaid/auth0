@@ -27,7 +27,7 @@
     "auth0-deploy-cli": "5.2.1",
     "husky": "4.3.0",
     "lint-staged": "10.5.0",
-    "prettier": "2.1.2"
+    "prettier": "2.2.1"
   },
   "husky": {
     "hooks": {
