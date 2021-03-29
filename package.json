@@ -25,7 +25,7 @@
     "@bifravst/code-style": "8.0.134",
     "auth0": "2.34.0",
     "auth0-deploy-cli": "5.5.5",
-    "husky": "4.3.8",
+    "husky": "6.0.0",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1"
   },
