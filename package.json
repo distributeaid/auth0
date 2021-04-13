@@ -4,7 +4,8 @@
   "description": "auth0.com configuration for Distribute Aid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -22,17 +23,13 @@
   },
   "homepage": "https://github.com/distributeaid/auth0#readme",
   "devDependencies": {
-    "@bifravst/code-style": "8.0.134",
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "^9.0.2",
+    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "^7.0.17",
     "auth0": "2.34.2",
     "auth0-deploy-cli": "5.5.5",
-    "husky": "4.3.8",
+    "husky": "^6.0.0",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -57,6 +54,5 @@
       "@semantic-release/release-notes-generator",
       "@semantic-release/github"
     ]
-  },
-  "dependencies": {}
+  }
 }
