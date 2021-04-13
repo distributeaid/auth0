@@ -25,4 +25,8 @@ The auth0 domain is `distributeaid.eu.auth0.com`.
 ## Client IDs
 
 After a successfull deployment, the client IDs will be printed by the GitHub
-action
+action.
+
+## Adding a new client
+
+You can either make a copy of one of the existing configurations in [clients](./clients) or use the auth0 web UI to configure a new client and the run [export.mjs](./export.mjs) to export the configuration to file and commit.
