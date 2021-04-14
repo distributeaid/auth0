@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - status-success=security/snyk (Distribute Aid)
       - status-success=tests
+      - "#approved-reviews-by>=1"
     actions:
       merge:
         method: rebase
