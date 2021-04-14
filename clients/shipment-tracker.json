@@ -1,0 +1,33 @@
+{
+  "is_token_endpoint_ip_header_trusted": false,
+  "name": "Shipment Tracker",
+  "callbacks": [
+    "http://localhost:8080/",
+    "https://shipment-tracker-dev.herokuapp.com/"
+  ],
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "sso_disabled": false,
+  "cross_origin_auth": false,
+  "allowed_clients": [],
+  "allowed_logout_urls": [
+    "http://localhost:8080/",
+    "https://shipment-tracker-dev.herokuapp.com/"
+  ],
+  "description": "A friendly tool to facilitate the logistics of humanitarian aid",
+  "logo_uri": "https://avatars0.githubusercontent.com/u/59700741?s=200&v=4",
+  "jwt_configuration": {
+    "alg": "RS256",
+    "lifetime_in_seconds": 36000,
+    "secret_encoded": false
+  },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "none",
+  "app_type": "spa",
+  "grant_types": ["authorization_code", "implicit", "refresh_token"],
+  "web_origins": [
+    "http://localhost:8080/",
+    "https://shipment-tracker-dev.herokuapp.com/"
+  ],
+  "custom_login_page_on": true
+}
