@@ -12,5 +12,5 @@
   "name": "Username-Password-Authentication",
   "is_domain_connection": false,
   "realms": ["Username-Password-Authentication"],
-  "enabled_clients": ["Webapp"]
+  "enabled_clients": ["Webapp", "shipment-tracker"]
 }
