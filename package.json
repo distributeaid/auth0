@@ -24,7 +24,7 @@
   "homepage": "https://github.com/distributeaid/auth0#readme",
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "9.0.4",
-    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "7.0.22",
+    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "7.0.23",
     "auth0": "2.35.0",
     "auth0-deploy-cli": "5.5.7",
     "husky": "6.0.0",
