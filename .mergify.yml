@@ -8,12 +8,9 @@ pull_request_rules:
       merge:
         method: rebase
         rebase_fallback: squash
-        bot_account: distributeaid-ci
       label:
         add:
           - mergify
-      rebase:
-        bot_account: distributeaid-ci
   - name: Automatically approve trusted service PRs
     conditions:
       - author~=^(snyk-bot|dependabot\[bot\]|renovate\[bot\])$
