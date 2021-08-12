@@ -3,7 +3,9 @@
   "name": "Shipment Tracker",
   "callbacks": [
     "http://localhost:8080/",
-    "https://shipment-tracker-dev.herokuapp.com/"
+    "https://shipment-tracker-dev.herokuapp.com/",
+    "https://da-shipment-tracker-staging.herokuapp.com/",
+    "https://da-shipment-tracker-production.herokuapp.com/"
   ],
   "is_first_party": true,
   "oidc_conformant": true,
@@ -12,7 +14,9 @@
   "allowed_clients": [],
   "allowed_logout_urls": [
     "http://localhost:8080/",
-    "https://shipment-tracker-dev.herokuapp.com/"
+    "https://shipment-tracker-dev.herokuapp.com/",
+    "https://da-shipment-tracker-staging.herokuapp.com/",
+    "https://da-shipment-tracker-production.herokuapp.com/"
   ],
   "description": "A friendly tool to facilitate the logistics of humanitarian aid",
   "logo_uri": "https://avatars0.githubusercontent.com/u/59700741?s=200&v=4",
@@ -27,7 +31,9 @@
   "grant_types": ["authorization_code", "implicit", "refresh_token"],
   "web_origins": [
     "http://localhost:8080/",
-    "https://shipment-tracker-dev.herokuapp.com/"
+    "https://shipment-tracker-dev.herokuapp.com/",
+    "https://da-shipment-tracker-staging.herokuapp.com/",
+    "https://da-shipment-tracker-production.herokuapp.com/"
   ],
   "custom_login_page_on": true
 }
