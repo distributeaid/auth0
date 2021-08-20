@@ -5,6 +5,10 @@
   "oidc_conformant": true,
   "sso_disabled": false,
   "cross_origin_auth": false,
+  "refresh_token": {
+    "rotation_type": "non-rotating",
+    "expiration_type": "non-expiring"
+  },
   "jwt_configuration": {
     "alg": "RS256",
     "lifetime_in_seconds": 36000,

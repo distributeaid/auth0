@@ -9,6 +9,8 @@ const config = {
   AUTH0_ALLOW_DELETE: true,
 };
 
+console.log(config);
+
 const main = async () => {
   await dump({
     output_folder: process.cwd(),

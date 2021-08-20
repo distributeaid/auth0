@@ -20,6 +20,15 @@
   ],
   "description": "A friendly tool to facilitate the logistics of humanitarian aid",
   "logo_uri": "https://avatars0.githubusercontent.com/u/59700741?s=200&v=4",
+  "refresh_token": {
+    "expiration_type": "expiring",
+    "leeway": 0,
+    "token_lifetime": 2592000,
+    "idle_token_lifetime": 1296000,
+    "infinite_token_lifetime": false,
+    "infinite_idle_token_lifetime": false,
+    "rotation_type": "rotating"
+  },
   "jwt_configuration": {
     "alg": "RS256",
     "lifetime_in_seconds": 36000,
