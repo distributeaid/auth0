@@ -12,5 +12,9 @@
   "name": "Username-Password-Authentication",
   "is_domain_connection": false,
   "realms": ["Username-Password-Authentication"],
-  "enabled_clients": ["Shipment Tracker", "Webapp"]
+  "enabled_clients": [
+    "Shipment Tracker",
+    "Webapp",
+    "shipment-tracker-prod-on-sloppy-io"
+  ]
 }

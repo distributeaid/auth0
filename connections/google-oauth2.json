@@ -7,5 +7,9 @@
   "strategy": "google-oauth2",
   "name": "google-oauth2",
   "is_domain_connection": false,
-  "enabled_clients": ["Shipment Tracker", "Webapp"]
+  "enabled_clients": [
+    "Shipment Tracker",
+    "Webapp",
+    "shipment-tracker-prod-on-sloppy-io"
+  ]
 }
