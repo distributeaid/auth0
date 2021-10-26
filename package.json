@@ -28,7 +28,7 @@
     "auth0": "2.37.0",
     "auth0-deploy-cli": "7.3.1",
     "husky": "7.0.4",
-    "lint-staged": "11.2.4",
+    "lint-staged": "11.2.6",
     "prettier": "2.4.1"
   },
   "lint-staged": {
